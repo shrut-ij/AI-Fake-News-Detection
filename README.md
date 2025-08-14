@@ -1,17 +1,18 @@
-# AI Fake News Detection (Groq + Brave Search + Streamlit)
+# 📰 Fake News Detector — Streamlit App (LLM + Brave Search + Groq Streaming)
 
-An interactive **AI-powered fake news detection tool** built with **Streamlit**, **Groq-hosted LLaMA 3.3 70B**, and **Brave Search API**.  
-The app takes a user statement, searches for relevant fact-checking evidence, and provides a **verdict** (TRUE, FALSE, PARTIALLY TRUE, or UNVERIFIABLE) along with explanations, context, and references.
+A **real-time fake news detection tool** powered by:
+- **Groq-hosted LLaMA 3.3 70B** for fast, high-quality analysis  
+- **Brave Search API** as the *external knowledge base* (RAG-like behavior, no local embeddings needed)  
+- **Streamlit** for an interactive web interface with live streaming responses
 
 ---
 
-## Features
-
-- **Web search integration** using Brave Search API to gather supporting evidence.
-- **Real-time AI analysis** using Groq-hosted **LLaMA 3.3 70B** for fact-checking.
-- **Structured results** with verdict, explanation, context, and source references.
-- **Interactive Streamlit UI** for a smooth user experience.
-- **Streaming responses** for faster feedback while the model is thinking.
+## 🚀 Features
+- **Instant news verification** via Brave Search API  
+- **Streaming LLM responses** (Groq API) for a chatbot-like feel  
+- **Automatic reference extraction** from top Brave search results  
+- **User-friendly interface** — press **Enter** to search or click the Search button  
+- No need to download large datasets or models locally — **everything is cloud-based**  
 
 ---
 
